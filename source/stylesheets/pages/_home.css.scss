@@ -1,7 +1,7 @@
 #banner {
   background-image: image-url('background.jpg');
   color: white;
-  padding: 150px 0;
+  padding: 300px 0;
   background-size: cover;
   height: 650px;
   padding-left: 50px;
@@ -14,10 +14,34 @@
   p {
     font-size: 25px;
     font-weight: 100;
+    font-family: $header-font;
   }
 }
 
-#banner, #tour, #newsletter {
+.card {
+  padding: 10px;
+  font-weight: 300;
+  h2{
+    font-size: 22px;
+  }
+}
+
+.hotel {
+  background-color: white;
+  font-weight: 300;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px grey;
+  h2{
+    padding-top: 1em;
+    color: $blue;
+    font-size: 22px;
+    }
+  a {
+    padding-bottom: 1em;
+  }
+  }
+
+#banner, #hotel, #tour, #newsletter {
   position: relative;
 }
 
@@ -32,5 +56,25 @@
   color: white;
   &:hover{
     color: white;
+  }
+}
+
+#hotel {
+  background-image: image-url('background.jpg');
+  color: white;
+  padding: 300px 0;
+  background-size: cover;
+  height: 650px;
+  padding-left: 50px;
+
+  h1 {
+    font-size: 70px;
+    color: white;
+    font-family: $header-font;
+  }
+  p {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: $header-font;
   }
 }
