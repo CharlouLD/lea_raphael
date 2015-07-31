@@ -16,7 +16,8 @@ title: Mariage - Léa & Raphael
 
 <div class="bg-primary padded" id="tour">
   <div class="container text-center" id="features">
-    <div class="row">
+    <h1>Vendredi 24.06.2016</h1>
+    <div class="row padded">
       <div class="col-xs-12 col-sm-6 col-md-3">
         <div class="card" data-sr="enter bottom and scale up 20% over 1s">
           <%= image_tag "messe.svg" %>
@@ -95,22 +96,66 @@ $(function() {
 });
 </script>
 
+<div class="bg-primary padded" id="tour">
+  <div class="container text-center" id="features">
+    <h1>Samedi 25.06.2016</h1>
+    <div class="row padded-light">
+      <div class="col-xs-12">
+        <div class="card" data-sr="enter bottom and scale up 20% over 1s">
+          <%= image_tag "brunch.svg" %>
+          <h2>Brunch</h2>
+          <p>Le Tiki<br>Lecci<br>11h30</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#photos"><i class="fa fa-angle-down fa-6 pulse scroll-btn"></i></a>
+</div>
+
+
+
+<div id="photos" class="carousel slide" data-ride="carousel">
+
+  <div class="carousel-inner text-center" role="listbox">
+    <div class="item active">
+      <img src="images/lea_raph.jpg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/lea_raph2.jpg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/lea_raph3.jpg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/lea_raph4.jpg" alt="">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="bg-primary padded-light" id="RSVP">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center rsvp">
         <h1>RSVP</h1>
-          <div class="col-md-4 text-center">
+          <div class="col-md-4">
             <div class="input-group padded-light">
               <input type="text" class="form-control" placeholder="Prénom">
             </div>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-md-4">
             <div class="input-group padded-light">
               <input type="text" class="form-control" placeholder="Nom">
             </div>
           </div>
-          <div class="col-md-4 text-center">
+          <div class="col-md-4">
             <div class="input-group padded-light">
               <input type="email" class="form-control" placeholder="Email">
             </div>
