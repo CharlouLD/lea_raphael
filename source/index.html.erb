@@ -69,7 +69,7 @@ var map = new google.maps.Map(document.getElementById('map'), myOptions);
 var marker = new google.maps.Marker({
   position: myLatlng,
   map: map,
-  title:"You are here!"
+  title:"C'est ici!"
 });
 </script>
 
@@ -94,5 +94,35 @@ $(function() {
 
 });
 </script>
+
+<div class="bg-primary padded-light" id="RSVP">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center rsvp">
+        <h1>RSVP</h1>
+          <div class="col-md-4 text-center">
+            <div class="input-group padded-light">
+              <input type="text" class="form-control" placeholder="Prénom">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="input-group padded-light">
+              <input type="text" class="form-control" placeholder="Nom">
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="input-group padded-light">
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="input-group padded-light">
+              <input type="text" class="form-control" placeholder="Message">
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
 
 
