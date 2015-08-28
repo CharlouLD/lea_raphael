@@ -41,7 +41,7 @@
   }
   }
 
-#banner, #hotel, #tour, #newsletter {
+#banner, #hotel, #tour, #newsletter, #acces {
   position: relative;
 }
 
@@ -96,5 +96,41 @@
   a {
     padding-bottom: 1em;
   }
-  }
+}
 
+
+#banneraccess {
+  background-image: image-url('access.jpg');
+  background-size: cover;
+  color: white;
+  padding: 300px 0;
+  height: 650px;
+  padding-left: 50px;
+
+  h1 {
+    font-size: 70px;
+    color: white;
+    font-family: $header-font;
+  }
+  p {
+    font-size: 25px;
+    font-weight: 100;
+    font-family: $header-font;
+  }
+}
+
+.access {
+  background-color: white;
+  font-weight: 300;
+  h1{
+    color: $grey;
+  }
+  h2{
+    padding-top: 1em;
+    color: $blue;
+    font-size: 22px;
+    }
+  a {
+    padding-bottom: 1em;
+  }
+  }
